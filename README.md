@@ -55,7 +55,7 @@ Now you can use terraform aliases.
 New-Item -ItemType File $profile
 ```
 
-## 🚀 Suppoorted Aliases
+## 🚀 Supported Aliases
 
 | Alias | Command              |
 | ----- | -------------------- |
