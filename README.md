@@ -54,3 +54,17 @@ Now you can use terraform aliases.
 ```powershell
 New-Item -ItemType File $profile
 ```
+
+## 🚀 Suppoorted Aliases
+
+| Alias | Command              |
+| ----- | -------------------- |
+| `tf`  | `terraform`          |
+| `tfa` | `terraform apply`    |
+| `tfc` | `terraform console`  |
+| `tfd` | `terraform destroy`  |
+| `tff` | `terraform fmt`      |
+| `tfi` | `terraform init`     |
+| `tfo` | `terraform output`   |
+| `tfp` | `terraform plan`     |
+| `tfv` | `terraform validate` |
