@@ -93,6 +93,3 @@ New-Item -ItemType File $profile
 | `tfdy`  | `terraform destroy -auto-approve` |
 | `tfinu` | `terraform init -upgrade`         |
 | `tfpde` | `terraform plan --destroy`        |
-
-
-terraform state
