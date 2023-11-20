@@ -88,7 +88,7 @@ The following aliases are currently implemented:
 
 ## 🤝 Contributing
 
-Contributions, [issues](https://github.com/pgebert/bcs-cli/issues) and feature requests are welcome!
+Contributions, [issues](https://github.com/pgebert/powershell-terraform-aliases/issues) and feature requests are welcome!
 
 ## Show your support
 
