@@ -9,45 +9,28 @@ A [PowerShell](https://microsoft.com/powershell) module that provide partial **[
 
 ## ⚙️ Installation
 
-Install from [PowerShell Gallery](https://www.powershellgallery.com/packages/terraform-aliases/)
+Install from [PowerShell Gallery](https://www.powershellgallery.com/packages/terraform-aliases/) using the following powershell command:
 
 ```powershell
 Install-Module terraform-aliases -Scope CurrentUser -AllowClobber
 ```
 
-[//]: # (Or from [Scoop]&#40;https://github.com/ScoopInstaller/Extras/blob/master/bucket/terraform-aliases.json&#41;)
+Add below command into your `PowerShell profile` file:
 
-[//]: # ()
-[//]: # (```powershell)
+```powershell
+Import-Module terraform-aliases -DisableNameChecking
+```
 
-[//]: # (scoop bucket add extras)
+Restart your powershell and now you can use terraform aliases. 🚀
 
-[//]: # (scoop install terraform-aliases)
+## 👉 Additional notes
 
-[//]: # (```)
-
----
 
 ⚠️ If you haven't allowed script execution policy, set your script execution policy to `RemoteSigned` or `Unrestricted`.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-
-## 🛂 Usage
-
-You have to import the module to use `terraform-aliases`.
-
-Add below command into your PowerShell profile.
-
-```powershell
-Import-Module terraform-aliases -DisableNameChecking
-```
-
-Then restart your PowerShell.  
-Now you can use terraform aliases.
-
----
 
 ⚠️ If you don't have PowerShell profile yet, create it with below command!
 
@@ -56,6 +39,8 @@ New-Item -ItemType File $profile
 ```
 
 ## 🚀 Supported Aliases
+
+The following aliases are currently implemented:
 
 | Alias   | Command                           |
 |---------|-----------------------------------|
@@ -93,3 +78,18 @@ New-Item -ItemType File $profile
 | `tfdy`  | `terraform destroy -auto-approve` |
 | `tfinu` | `terraform init -upgrade`         |
 | `tfpde` | `terraform plan --destroy`        |
+
+# Miscellaneous
+
+## 🤝 Contributing
+
+Contributions, [issues](https://github.com/pgebert/bcs-cli/issues) and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2023 [pgebert](https://github.com/pgebert).  
+This project is licensed under [MIT](https://github.com/pgebert/powershell-terraform-aliases/blob/main/LICENSE).
