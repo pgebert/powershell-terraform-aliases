@@ -7,6 +7,11 @@ A [PowerShell](https://microsoft.com/powershell) module that provide partial **[
 
 > ℹ️ This module will replace some built-in PowerShell aliases with our Terraform aliases to **prevent** conflicts.
 
+## 💻 Prerequisite
+
+✔ Installed [terraform-cli](https://developer.hashicorp.com/terraform/install)
+
+
 ## ⚙️ Installation
 
 Install from [PowerShell Gallery](https://www.powershellgallery.com/packages/terraform-aliases/) using the following powershell command:
@@ -26,13 +31,13 @@ Restart your powershell and now you can use terraform aliases. 🚀
 ## 👉 Additional notes
 
 
-⚠️ If you haven't allowed script execution policy, set your script execution policy to `RemoteSigned` or `Unrestricted`.
+If you haven't allowed script execution policy, set your script execution policy to `RemoteSigned` or `Unrestricted`.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-⚠️ If you don't have PowerShell profile yet, create it with below command!
+If you don't have PowerShell profile yet, create it with below command!
 
 ```powershell
 New-Item -ItemType File $profile
