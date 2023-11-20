@@ -1,5 +1,5 @@
 # Terraform aliases for PowerShell
-[![license](https://img.shields.io/github/license/gluons/powershell-git-aliases.svg?style=flat-square)](./LICENSE)
+[![license](https://img.shields.io/github/license/pgebert/powershell-terraform-aliases.svg?style=flat-square)](./LICENSE)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/v/terraform-aliases.svg?style=flat-square)](https://www.powershellgallery.com/packages/terraform-aliases/)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/terraform-aliases.svg?style=flat-square)](https://www.powershellgallery.com/packages/terraform-aliases/)
 
