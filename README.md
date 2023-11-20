@@ -3,7 +3,7 @@
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/v/terraform-aliases.svg?style=flat-square)](https://www.powershellgallery.com/packages/terraform-aliases/)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/terraform-aliases.svg?style=flat-square)](https://www.powershellgallery.com/packages/terraform-aliases/)
 
-A [PowerShell](https://microsoft.com/powershell) module that provide partial **[Terraform](https://www.terraform.io/)** aliases from [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)'s [terraform plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terraform).
+A [PowerShell](https://microsoft.com/powershell) module that provides partial **[Terraform](https://www.terraform.io/)** aliases from [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)'s [terraform plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terraform).
 
 > ℹ️ This module will replace some built-in PowerShell aliases with our Terraform aliases to **prevent** conflicts.
 
